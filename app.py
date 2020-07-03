@@ -1,24 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[16]:
+
 
 
 from flask import Flask, jsonify, request
 import os as os
 
 
-# In[1]:
-
-
 obj=__import__("my-voice-analysis")
-
-
-# In[ ]:
-
-
-from flask import Flask, jsonify, request
-import pickle
 
 
 # app
@@ -38,7 +28,8 @@ def predict():
 
     # send back to browser
     #output = {'results': int(result[0])}
-    output = {'results': path}
+    output = {'results': path,
+             'input':data}
     
     # return data
     return jsonify(results=output)
