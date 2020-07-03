@@ -22,7 +22,6 @@ entrypoints==0.3
 Flask==1.1.2
 gast==0.3.3
 get==2019.4.13
-google-auth==1.18.0
 google-auth-oauthlib==0.4.1
 google-pasta==0.1.8
 grpcio==1.26.0
@@ -112,9 +111,6 @@ sklearn==0.0
 SoundFile==0.10.3.post1
 SpeechRecognition==3.8.1
 style==1.1.0
-tensorboard-plugin-wit==1.7.0
-tensorflow==2.2.0
-tensorflow-estimator==2.2.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
