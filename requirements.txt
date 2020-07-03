@@ -81,7 +81,6 @@ protobuf==3.11.2
 public==2019.4.13
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio==0.2.11
 pyaudioclassification==0.1.9
 pycparser==2.19
 PyDispatcher==2.0.5
@@ -93,7 +92,6 @@ pyrsistent==0.16.0
 python-dateutil==2.8.1
 pytz==2019.3
 PyWavelets==1.1.1
-pywinpty==0.5.7
 PyYAML==5.3
 pyzmq==19.0.1
 query-string==2019.4.13
@@ -114,7 +112,6 @@ sklearn==0.0
 SoundFile==0.10.3.post1
 SpeechRecognition==3.8.1
 style==1.1.0
-tensorboard==2.2.2
 tensorboard-plugin-wit==1.7.0
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
