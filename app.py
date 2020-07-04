@@ -7,7 +7,7 @@
 from flask import Flask, jsonify, request
 import pyrebase
 import os as os
-
+obj=__import__("my-voice-analysis")
 
 from flask import Flask, jsonify, request
 import pickle
@@ -36,8 +36,8 @@ def predict():
 
     path=os.getcwd()
     
-    storage = firebase.storage()
-    storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
+    #storage = firebase.storage()
+    #storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
     # predictions
     #result = model.predict(data_df)
 
