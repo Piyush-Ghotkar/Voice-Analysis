@@ -8,7 +8,7 @@ from flask import Flask, jsonify, request
 import os as os
 
 
-obj=__import__("my-voice-analysis")
+#obj=__import__("my-voice-analysis")
 
 
 # app
