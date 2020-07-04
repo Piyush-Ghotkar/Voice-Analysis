@@ -86,7 +86,6 @@ protobuf==3.11.2
 public==2019.4.13
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio==0.2.11
 pyaudioclassification==0.1.9
 pycparser==2.19
 pycryptodome==3.4.3
@@ -101,7 +100,6 @@ python-dateutil==2.8.1
 python-jwt==2.0.1
 pytz==2019.3
 PyWavelets==1.1.1
-pywin32==227
 pywinpty==0.5.7
 PyYAML==5.3
 pyzmq==19.0.1
