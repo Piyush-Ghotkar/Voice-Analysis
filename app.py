@@ -42,7 +42,7 @@ app = Flask(__name__)
 def predict():
     # get data
     data = request.get_json(force=True)
-    filename=data[14:-2]
+    filename=data["filename"]
     storage_path="Audio/"+filename
     try:
         storage = firebase.storage()
