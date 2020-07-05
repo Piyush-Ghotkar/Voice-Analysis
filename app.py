@@ -36,6 +36,11 @@ def predict():
 
     path=os.getcwd()
     
+    p="27 sec clip"
+    c=r"path"
+    
+    result=obj.mysptotal(p,c)
+    
     #storage = firebase.storage()
     #storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
     # predictions
@@ -43,7 +48,7 @@ def predict():
 
     # send back to browser
     #output = {'results': int(result[0])}
-    output = {'results': path}
+    output = {'results': result}
     
     # return data
     return jsonify(results=output)
