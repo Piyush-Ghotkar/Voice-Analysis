@@ -48,7 +48,7 @@ def predict():
     p="27 sec clip"
     c=path
     
-    ar_rate=obj.articulation_rate(p,c)
+    ar_rate=articulation_rate(p,c)
     
     #storage = firebase.storage()
     #storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
