@@ -37,7 +37,7 @@ def predict():
     path=os.getcwd()
     
     p="27 sec clip"
-    c=r"path"
+    c=r+path
     
     result=obj.mysptotal(p,c)
     
