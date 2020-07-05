@@ -42,10 +42,11 @@ app = Flask(__name__)
 def predict():
     # get data
     data = request.get_json(force=True)
-
+    filename=data[14:-2]
+    storage_path="Audio/"+filename
     try:
         storage = firebase.storage()
-        storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
+        storage.child(storage_path).download("downloaded.wav")
     except:
         print("Download Failed")
     
