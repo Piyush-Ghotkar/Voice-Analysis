@@ -43,7 +43,7 @@ def predict():
     # get data
     data = request.get_json(force=True)
     filename=data["filename"]
-    storage_path="Audio/"+filename+"wav"
+    storage_path="Audio/"+filename+".wav"
     try:
         storage = firebase.storage()
         storage.child(storage_path).download("downloaded.wav")
