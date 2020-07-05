@@ -43,11 +43,14 @@ def predict():
     # get data
     data = request.get_json(force=True)
 
-    #storage = firebase.storage()
-    #storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
+    try:
+        storage = firebase.storage()
+        storage.child("Audio/27 sec clip.wav").download("downloaded.wav")
+    except:
+        print("Download Failed")
     
     
-    p="27 sec clip"
+    p="downloaded"
     c=os.getcwd()
     
     ar_rate=articulation_rate(p,c)
