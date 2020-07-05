@@ -55,9 +55,6 @@ def predict():
     no_pause=number_of_pauses(p,c)
     speak_dur=speaking_duration(p,c)
     org_dur=original_duration(p,c)
-    
-
-  
 
     # send back to browser
     output = {'articulation rate': ar_rate,
@@ -67,7 +64,9 @@ def predict():
              'original duration': org_dur}
     
     # return data
-    return jsonify(results=output)
+    return output
+
+######################################################
 
 def articulation_rate(m,p):
     sound=p+"/"+m+".wav"
