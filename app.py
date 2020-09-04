@@ -23,13 +23,13 @@ import pickle
 
 
 config={
-    "apiKey": "AIzaSyDeFLJFr2aqcAK40nZOmBtEDNYij49yyAk",
-    "authDomain": "healdon-916dd.firebaseapp.com",
-    "databaseURL": "https://healdon-916dd.firebaseio.com",
-    "projectId": "healdon-916dd",
-    "storageBucket": "healdon-916dd.appspot.com",
-    "messagingSenderId": "756073662506",
-    "appId": "1:756073662506:web:2f4cb2e5e93f1d4b9d1b53"
+    "apiKey": "***************************************",
+    "authDomain": "******************************",
+    "databaseURL": "*********************************",
+    "projectId": "********",
+    "storageBucket": "***************************",
+    "messagingSenderId": "**********",
+    "appId": "*****************************************"
 }
 firebase=pyrebase.initialize_app(config)
 
